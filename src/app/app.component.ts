@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Emp } from './emp';
 
 @Component({
   selector: 'app-root',
@@ -6,11 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular_revision';
 
-  variable = false ;
-  // ChangeValue(val:any){
-  //   this.variable=val.value
-    
-  // }
+  val = "abhishek"
+ 
+  title = 'angular_revision';
+  
+  
 }
