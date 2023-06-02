@@ -9,8 +9,14 @@ import { Emp } from './emp';
 export class AppComponent {
 
   val = "abhishek"
+
+  isValid:boolean= true
  
   title = 'angular_revision';
+  onChange(val:any){
+    this.isValid = val
+
+  }
   
   
 }

@@ -1,1 +1,6 @@
-name : {{val}}
+<input type="radio" name="rad" checked (click)="onChange(true)">true
+<input type="radio" name="rad" (click)="onChange(false)">false
+<br>
+
+<div *ngIf="isValid">data is valid</div>
+<div *ngIf="!isValid">data is invalid</div>
